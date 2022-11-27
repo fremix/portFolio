@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Metadatos -->
+    <meta charset="UTF-8" />
+    <meta name="author" content="Freddy Morales">
+    <meta name="description" content="Portafolio de Desarrollo Web de Freddy Morales">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Titulo -->
+    <title>Freddy Morales | Desarrollo Web Front-End</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/fremi.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.1/font/bootstrap-icons.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Barra de Navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler center" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-toggler">
+                <a class="navbar-brand" href="#">
+                    <img src="images/fremi.png" width="50" alt="logo de la pagina Web">
+                </a>
+                <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Sobre mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Testimonios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+        <!-- hero principal -->
+        <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+            <img class="hero-imagen" src="images/perfil.jpg" alt="foto de perfil">
+            <h1>Hola, soy Freddy <span class="seccion-negrita">Morales</span> </h1>
+            <h2>Desarrollo sitios Web y escribo articulos de programación</h2>
+        </div>
+        <!-- hero inferior -->
+        <div class="hero-inferior">
+            <img class="hero-inferior-secundario img-fluid" src="images/frontEnd.jpg"
+                alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React">
+        </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section class="sobre-mi seccion-oscura">
+        <div class="contenedor">
+            <h2 class="seccion-titulo">Conoce a Freddy <span class="seccion-negrita">Morales</span> </h2>
+            <p class="seccion-texto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                galley of type and scrambled it to make a type specimen book.</p>
+
+        </div>
+    </section>
+
+    <!-- Experiencias -->
+    <section class="experiencia seccion-clara">
+        <div class="container text-center">
+            <div class="row">
+                <!-- Desarrollo Web -->
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-laptop"></i>
+                    <p class="experiencia-titulo">Desarrollo Web</p>
+                    <p>Significa construir y mantener sitios web; es el trabajo que tiene lugar en un segundo plano y
+                        que permite que una web tenga una apariencia impecable y un funcionamiento rápido. Lorem Ipsum
+                        is simply dummy text of the printing and typesetting industry.</p>
+                    <div class="bagges-contenedor">
+                        <span class="badge rounded-pill text-bg-primary">HTML</span>
+                        <span class="badge text-bg-secondary">CSS</span>
+                        <span class="badge rounded-pill text-bg-success">JavaScript</span>
+                        <span class="badge text-bg-warning">Git</span>
+                    </div>
+                </div>
+                <!-- Articulos -->
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-pencil-square"></i>
+                    <p class="experiencia-titulo">Artículos</p>
+                    <p>Un «artículo» en español, es un escrito entretenido sobre un tema general. El objetivo de un
+                        artículo suele ser hablar de un tema que te gusta o sobre el que eres un experto. Lorem Ipsum is
+                        simply dummy text of the printing and typesetting industry.</p>
+                    <div class="bagges-contenedor">
+                        <span class="badge rounded-pill text-bg-info">Escribir</span>
+                        <span class="badge text-bg-secondary">Editar</span>
+                        <span class="badge rounded-pill text-bg-dark">Blogs</span>
+
+                    </div>
+                </div>
+                <!-- Estudiante -->
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-journal-code"></i>
+                    <p class="experiencia-titulo">Estudiante</p>
+                    <p>La Ingeniería de Software es una disciplina análiza, diseña y construye aplicaciones informáticas
+                        a través de la utilización de metodologías, herramientas, técnicas y documentación para una
+                        correcta gestión del software en una organización.</p>
+                    <div class="bagges-contenedor">
+                        <span class="badge text-bg-primary">freeCodeCamp</span>
+                        <span class="badge rounded-pill text-bg-light">Desarrollo Web</span>
+                        <span class="badge text-bg-danger">React</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+
+    <section class="proyectos-recientes seccion-clara d-flex flex-column">
+        <h2 class="seccion-titulo texto-negro">Mis Proyectos</h2>
+        <h3 class="seccion-descripcion">Portafolio de Proyectos Profesionales</h3>
+        <!-- Galeria de Proyectos -->
+        <div class="container text-center proyectos-contenedor">
+            <div class="row">
+                <!-- Proyecto 1 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="../images/proyecto1.png" alt="Proyecto 1">
+                        <div class="overlay">
+                            <p>Proyecto 1</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Proyecto 2 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="../images/proyecto2.png" alt="Proyecto 2">
+                        <div class="overlay">
+                            <p>Proyecto 2</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Proyecto 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="../images/proyecto3.png" alt="Proyecto 3">
+                        <div class="overlay">
+                            <p>Proyecto 3</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Proyecto 4 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="../images/proyecto4.png" alt="Proyecto 4">
+                        <div class="overlay">
+                            <p>Proyecto 4</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Proyecto 5 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="../images/proyecto5.png" alt="Proyecto 5">
+                        <div class="overlay">
+                            <p>Proyecto 5</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Proyecto 6 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="../images/proyecto6.png" alt="Proyecto 6">
+                        <div class="overlay">
+                            <p>Proyecto 6</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-outline-primary">
+            Ver más proyectos
+            <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+        </a>
+    </section>
+
+    <!-- Articulos -->
+
+    <section class="articulos justify-content-start">
+        <h2 class="seccion-titulo texto-negro">Artículos</h2>
+        <div class="card">
+            <div class="card-header">
+              Más recientes...
+            </div>
+            <ul class="list-group list-group-flush">
+                <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">El decorador @property en Python - cómo usarlo, ventajas y sintaxis</li>
+                </a>
+
+                <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">Python leer archivos JSON - cómo cargar JSON desde un archivo y procesar dumps</li>
+                </a>
+
+                <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">Python tutoriales ciclos while - while true ejemplos de sintaxis y ciclos infinitos</li>
+                </a>
+
+                <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">JavaScript ciclos while - Do - Do While</li>
+                </a>
+
+                <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">CSS de cero a PRO</li>
+                </a>
+
+                <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">El operador ternario de JavaScript - condición ? expr1 : expr2</li>
+                </a>
+            </ul>
+          </div>
+          <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+            <button type="button" class="btn btn-outline-primary">
+                Ver más artículos
+                <i class="bi bi-arrow-right-circle-fill"></i>
+            </button>
+            </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section class="estimonios seccion-clara">
+        <h2 class="seccion-titulo">Testimonios</h2>
+        <h3 class="seccion-descripcion">Estos son algunos testimonios de mis clientes...</h3>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
